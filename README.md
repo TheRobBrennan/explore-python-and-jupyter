@@ -18,6 +18,12 @@ Assuming your development environment meets the prerequisites below, to get star
 - Run `deactivate` when you're ready to leave the Python virtual environment
 - OPTIONAL: If you want to delete your virtual environment completely, you can run the `npm run destroy` script
 
+### Additional resources
+
+Please see [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) for an excellent introduction to Jupyter Notebooks.
+
+![Screenshot of the Jupyter Notebooks in VS Code guide](./screenshots/jupyter-notebooks-in-vs-code.png)
+
 ### Prerequisites
 
 Please make sure that you have the following installed on your development environment:
