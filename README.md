@@ -6,6 +6,18 @@ This project aims to explore working with [Python](https://www.python.org) and [
 
 ## Getting started
 
+Assuming your development environment meets the prerequisites below, to get started with this project you will want to:
+
+- Run `npm run setup` to create the Python virtual environment and install all of the dependencies from `requirements.txt`
+- Run `source .venv/bin/activate` to activate your newly created Python virtual environment
+- Select the Python interpreter for VS Code
+
+![Screenshot of being prompted to select a Python interpreter for VS Code](./screenshots/vscode-select-python-interpreter-00.png)
+![Screenshot of selecting the Python interpreter at ./.venv/bin/python for VS Code](./screenshots/vscode-select-python-interpreter-01.png)
+
+- Run `deactivate` when you're ready to leave the Python virtual environment
+- OPTIONAL: If you want to delete your virtual environment completely, you can run the `npm run destroy` script
+
 ### Prerequisites
 
 Please make sure that you have the following installed on your development environment:
@@ -30,7 +42,7 @@ This project includes several scripts to get you up and running with your local 
 
 - `setup`
 
-  - This script checks to see if a Python virtual environment has been created at `.venv` and installs dependencies from [requirements.txt](./requirements.txt)
+  - This script checks to see if a Python virtual environment exists at `.venv` - or creates a new Python virtual environment - and installs dependencies from [requirements.txt](./requirements.txt)
 
 - `start`
 
