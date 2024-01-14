@@ -2,6 +2,8 @@
 
 This project aims to explore working with [Python](https://www.python.org) and [Jupyter](https://pypi.org/project/jupyter/) notebooks.
 
+![Screenshot of a Jupyter notebook in VS Code](./screenshots/screenshot.png)
+
 ## Getting started
 
 ### Prerequisites
