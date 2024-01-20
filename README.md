@@ -56,11 +56,11 @@ This project includes several scripts to get you up and running with your local 
 
 - `test`
 
-  - This script uses the Python virtual environment at `.venv` and runs the unit tests for our shot chart application
+  - This script uses the Python virtual environment at `.venv` and runs the unit tests for our application
 
 - `test:coverage`
 
-  - This script uses the Python virtual environment at `.venv`, runs the unit tests for our shot chart application, and generates an HTML coverage report at [./htmlcov/index.html](./htmlcov/index.html) that will automatically open in the default web browser on macOS.
+  - This script uses the Python virtual environment at `.venv`, runs the unit tests for our application, and generates an HTML coverage report at [./htmlcov/index.html](./htmlcov/index.html) that will automatically open in the default web browser on macOS.
 
 - `destroy`
   - This script removes the Python virtual environment at `.venv`
